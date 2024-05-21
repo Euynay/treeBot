@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/camera/camera",
+    "pages/online/online",
+    "pages/home/home"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#024A3E",
+    "navigationBarTitleText": "测度设备",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle":"dark",
+    "backgroundColor": "#efefef",
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/camera/camera",
+        "text": "建图",
+        "iconPath": "images/tabBar/搜一搜.png",
+        "selectedIconPath": "images/tabBar/搜一搜1.png"
+      },
+      {
+        "pagePath": "pages/online/online",
+        "text": "导航",
+        "iconPath": "images/tabBar/直播.png",
+        "selectedIconPath": "images/tabBar/直播1.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "查看数据",
+        "iconPath": "images/tabBar/电脑.png",
+        "selectedIconPath": "images/tabBar/电脑1.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "resizable": true
+  
+}
+

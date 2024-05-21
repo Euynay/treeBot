@@ -1,0 +1,8 @@
+prefix=/home/wzq/my_ws/install
+
+Name: wx_ros_launch
+Description: Description of wx_ros_launch
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lwx_ros_launch
+Requires: roscpp rospy

@@ -1,0 +1,7 @@
+set(cloud_status_SETUP_PY_SETUP_MODULE "distutils.core")
+set(cloud_status_SETUP_PY_VERSION "0.0.0")
+set(cloud_status_SETUP_PY_SCRIPTS "")
+set(cloud_status_SETUP_PY_PACKAGES "cloud_status")
+set(cloud_status_SETUP_PY_PACKAGE_DIRS "src/cloud_status")
+set(cloud_status_SETUP_PY_MODULES "")
+set(cloud_status_SETUP_PY_MODULE_DIRS "")

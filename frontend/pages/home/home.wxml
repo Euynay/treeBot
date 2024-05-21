@@ -1,0 +1,38 @@
+<!--pages/home/home.wxml-->
+<image src="/images/green.png" bindload="autoImage" style="width:{{imageWidth}};height:{{ imageHeight }}" />
+
+<button bind:tap="customButtonUpStartTap">
+  <image src="/images/button/timeout.png" style="width: 30px; height: 30px;" />
+</button>
+
+<view>方向键：</view>
+<view class="button-container">
+  <button bind:tap="customButtonUpTap" class="custom-button">
+    <image src="/images/button/up.png" style="width: 30px; height: 30px;" />
+  </button>
+  <button bind:tap="customButtonLeftTap" class="custom-button">
+    <image src="/images/button/left.png" style="width: 30px; height: 30px;" />
+  </button>
+</view>
+
+<view class="button-container">
+  <button bind:tap="customButtonDownTap" class="custom-button">
+    <image src="/images/button/down.png" style="width: 30px; height: 30px;" />
+  </button>
+  <button bind:tap="customButtonRightTap" class="custom-button">
+    <image src="/images/button/right.png" style="width: 30px; height: 30px;" />
+  </button>
+</view>
+
+<view class="container">
+  <view class="image-container">
+    <image src="/images/trees/松树.png" class="image-item" />
+  </view>
+  <view class="text-container">
+    <text class="text-item">Tree0</text>
+    <text class="text-item">品种：pine_tree</text>
+    <text class="text-item">树高：</text>
+    <text class="text-item">胸径：</text>
+  </view>
+
+</view>

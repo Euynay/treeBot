@@ -1,0 +1,20 @@
+<!--pages/online/online.wxml-->
+<image src="/images/green.png" bindload="autoImage" style="width:{{imageWidth}};height:{{ imageHeight }}" />
+
+<view>开始导航:</view>
+<image src="/images/green.png" bindload="autoImage" style="width:{{imageWidth}};height:{{ imageHeight }}" />
+
+<view class="button-container">
+  <view class="button-item">
+    <button bindtap="customButtonStart1Tap" class="custom-button">
+      <image src="/images/button/绿旗子.png" class="icon-image" />
+    </button>
+    <text class="button-text">起点</text>
+  </view>
+  <view class="button-item">
+    <button bindtap="customButtonStart2Tap" class="custom-button">
+      <image src="/images/button/旗子.png" class="icon-image" />
+    </button>
+    <text class="button-text">终点</text>
+  </view>
+</view>

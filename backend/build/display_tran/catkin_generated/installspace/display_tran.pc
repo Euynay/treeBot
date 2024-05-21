@@ -1,0 +1,8 @@
+prefix=/home/wzq/my_ws/install
+
+Name: display_tran
+Description: Description of display_tran
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,36 @@
+/* pages/home/home.wxss */
+.container {
+  display: flex; /* 使用 Flex 布局 */
+  align-items: center; /* 垂直居中 */
+  /* 其他容器样式设置 */
+}
+
+.text-container {
+  flex: 1; /* 自动扩展，占据剩余空间 */
+  display: flex; /* 使用 Flex 布局 */
+  flex-direction: column; /* 文本垂直排列 */
+  /* 其他文本容器样式设置 */
+}
+
+
+.image-item {
+  width: 100px; /* 图片宽度 */
+  height: 100px; /* 图片高度 */
+  /* 其他图片样式设置 */
+}
+.button-container {
+  display: flex; /* 使用 Flex 布局让按钮在一行内排列 */
+  justify-content: space-between; /* 两个按钮在容器内均匀分布 */
+  /* 其他容器样式设置 */
+}
+
+.custom-button {
+  width: 48%; /* 设置按钮的宽度为容器宽度的一半 */
+  /* 其他按钮样式设置 */
+}
+
+.icon-image {
+  width: 100%; /* 图标宽度保持100%，保持原始尺寸 */
+  height: auto; /* 自动计算高度，保持比例 */
+  /* 其他图标样式设置 */
+}

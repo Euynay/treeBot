@@ -1,0 +1,2 @@
+cloud_status:cloudpoi_process:display_tran:husky/husky_control:husky/husky_description:husky/husky_desktop:husky/husky_gazebo:husky/husky_msgs:husky/husky_navigation:husky/husky_simulator:husky/husky_viz:loam_velodyne:wx_ros_launch
+-DCATKIN_DEVEL_PREFIX=/home/wzq/my_ws/devel -DCMAKE_INSTALL_PREFIX=/home/wzq/my_ws/install -G Unix Makefiles

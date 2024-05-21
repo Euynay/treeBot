@@ -1,0 +1,22 @@
+.button-container {
+  display: flex; /* 使用 Flex 布局让按钮在一行内排列 */
+  justify-content: space-between; /* 两个按钮在容器内均匀分布 */
+  /* 其他容器样式设置 */
+}
+
+.custom-button {
+  width: 48%; /* 设置按钮的宽度为容器宽度的一半 */
+  /* 其他按钮样式设置 */
+}
+
+.icon-image {
+  width: 100%; /* 图标宽度保持100%，保持原始尺寸 */
+  height: auto; /* 自动计算高度，保持比例 */
+  /* 其他图标样式设置 */
+}
+
+/*pages/camera/camera.wxss*/
+.green-background {
+  background-color: green;
+}
+

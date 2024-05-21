@@ -1,0 +1,8 @@
+prefix=/home/wzq/my_ws/install
+
+Name: cloud_status
+Description: Description of cloud_status
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

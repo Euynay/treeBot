@@ -1,0 +1,56 @@
+<!--pages/camera/camera.wxml-->
+<view>相机画面:</view>
+<!-- 在小程序页面的wxml文件中 -->
+<view class="green-background">
+  <image src="{{imageUrl}}" mode="aspectFit" />
+</view>
+
+<!-- 
+<image src="/images/camera/相机画面4.png" bindload="autoImage" style="width:{{imageWidth}};height:{{ imageHeight }}" />
+-->
+<view class="button-container">
+  <button bind:tap="customButtonUpStartTap" class="custom-button">
+    <image src="/images/button/timeout.png" style="width: 30px; height: 30px;" />
+  </button>
+  <button bind:tap="customButtonUploadTap" class="custom-button">
+    <image src="/images/button/Upload.png" style="width: 30px; height: 30px;" />
+  </button>
+</view>
+
+<view>方向键：</view>
+<view class="button-container">
+  <button bind:tap="customButtonUpTap" class="custom-button">
+    <image src="/images/button/up.png" style="width: 30px; height: 30px;" />
+  </button>
+  <button bind:tap="customButtonLeftTap" class="custom-button">
+    <image src="/images/button/left.png" style="width: 30px; height: 30px;" />
+  </button>
+</view>
+
+<view class="button-container">
+  <button bind:tap="customButtonDownTap" class="custom-button">
+    <image src="/images/button/down.png" style="width: 30px; height: 30px;" />
+  </button>
+  <button bind:tap="customButtonRightTap" class="custom-button">
+    <image src="/images/button/right.png" style="width: 30px; height: 30px;" />
+  </button>
+</view>
+
+<view>加减速按键：</view>
+<view class="button-container">
+  <button bind:tap="customButtonSpeedup" class="custom-button">
+    <image src="/images/button/verticalright.png" style="width: 30px; height: 30px;" />
+  </button>
+  <button bind:tap="customButtonSlowdown" class="custom-button">
+    <image src="/images/button/verticalleft.png" style="width: 30px; height: 30px;" />
+  </button>
+</view>
+
+
+<view>当前建图:</view>
+
+  <image src="/images/green.png" bindload="autoImage" style="width:{{imageWidth}};height:{{ imageHeight }}" />
+
+
+
+
